@@ -9,7 +9,7 @@
         {
             Console.WriteLine("Print out");
             var result = JsonConvert.SerializeObject(new object[] { });
-            Console.WriteLine(result);
+            Console.WriteLine($"This is result : {result}");
         }
     }
 }
